@@ -17,6 +17,7 @@ class Renderer {
         this.start_time = null;
         this.prev_time = null;
 
+        let ball_vertices = [];
         for (let i = 0; i < 32; i++) {
             let angle = (2 * Math.PI * i) / 32;
             ball_vertices.push(CG.Vector3(
